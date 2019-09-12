@@ -1,5 +1,13 @@
 import { Request, Response } from 'express';
 
-export function HelloWorld(req: Request, res: Response): Response {
-	return res.send('Hello world');
+export function createPhoto(req: Request, res: Response): Response {
+	return res.json({
+		message: 'Subida Correctamente',
+	});
+}
+
+export function getPhoto(req: Request, res: Response): Response {
+	return res.json({
+		message: 'foto obtenida',
+	});
 }

@@ -14,3 +14,12 @@ npm i @types/morgan -D
 
 npm i mongoose
 npm i @types/mongoose -D
+
+// modulo para subir imagenes
+npm i multer
+npm i @types/multer -D
+
+// para generar id aleatorio
+npm i uuid
+npm i @types/uuid -D
+
