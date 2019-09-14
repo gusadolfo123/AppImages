@@ -23,3 +23,8 @@ npm i @types/multer -D
 npm i uuid
 npm i @types/uuid -D
 
+// fs con promesas
+npm i fs-extra
+npm i @types/fs-extra -D
+
+

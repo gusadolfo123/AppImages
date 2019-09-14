@@ -5,6 +5,7 @@ export async function startConnection() {
 		'mongodb://localhost/photo-gallery-db',
 		{
 			useNewUrlParser: true,
+			useUnifiedTopology: true,
 		},
 	);
 	console.log('Database is connected');
